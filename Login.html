@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewpoint" content="width=device-width,initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" rel="noopener" target="_blank" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <a class="active" href="Home.html">Home</a>
+            <a href="About ME.html">About Me</a>
+            <a href="Register.html">Register</a>
+            <a href="Login.html">Login</a>
+        </div>
+    </header>
+</body>
+<form action="action_page.php" method="post">
+    <div class="imgcontainer">
+      <img src="Screenshot (38).png" alt="Avatar" class="avatar">
+    </div>
+  
+    <div class="tainer">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+  
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+  
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+
+        <div class="tainer" style="background-color:#f1f1f1">
+          <button type="button" class="cancelbtn">Cancel</button>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+      </form>
+      </label>
+    </div>
